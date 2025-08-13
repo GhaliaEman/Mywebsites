@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(245, 222, 179, 0.422);
+}
+
+.container {
+    height: 300px;
+    width: 46%;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgba(173, 216, 230, 0.774);
+    display: flex;
+}
+
+.img {
+    height: 270px;
+    width: 40%;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-left: 14px;
+    background-color: white;
+}
+
+.bpg {
+    height: 270px;
+    width: 100%;
+    margin: auto;
+}
+
+.data {
+    height: 270px;
+    width: 60%;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    margin: 14px;
+}
+
+.name {
+    display: flex;
+    justify-content: start;
+    font-size: 35px;
+}
+
+.name1 {
+    display: flex;
+    justify-content: start;
+    font-size: 24px;
+    color: rgba(128, 128, 128, 0.726);
+}
+
+.number {
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.982);
+}
+
+.art {
+    /* display: flex; */
+    justify-content: start;
+    font-size: 25px;
+    padding: 2px;
+}
+
+.art1 {
+    /* display: flex; */
+    justify-content: start;
+    font-size: 35px;
+    padding-left: 16px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.chat {
+    height: 50px;
+    width: 40%;
+    border: 1px solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.chat1 {
+    height: 50px;
+    width: 40%;
+    border: 1px solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    display: flex;
+    cursor: pointer;
+}
